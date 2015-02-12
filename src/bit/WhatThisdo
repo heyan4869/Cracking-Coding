@@ -1,0 +1,5 @@
+5.4 Explain what the following code does: ((n & (n - 1)) == 0).
+
+Suppose n = abcde1000 in binary. n - 1 is then abcde0111. n & (n - 1) is abcde0000. 
+Hence, in order to make sure that n & (n -1) == 0, abcde have to be all zero. 
+In other words, n has to be a power of 2 or 0.
